@@ -1,0 +1,52 @@
+body {
+  margin: auto;
+  margin-top: 10vh;
+  background-color: #ffd8a8;
+}
+.cont {
+  display: grid;
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: 400px;
+  height: 400px;
+  grid-template-columns: repeat(10, 1fr);
+  box-shadow: 0 0 10px;
+}
+* {
+  box-sizing: 
+  border-box;
+}
+.cont {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+.cont > div {
+  margin: 0;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: rgba(183, 212, 150, 0.911);
+  /* background-color: #ffd8a8; */
+  padding: 1em;
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome and Opera */
+}
+.vis {
+  color: brown;
+  text-align: center;
+}
