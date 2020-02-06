@@ -1,11 +1,15 @@
 {
   "name": "go_horse",
   "version": "1.0.0",
-  "description": "",
+  "description": "Logical game. You need to fill in 100 squares.",
   "main": "script.js",
   "scripts": {
+    "start": "node go_horse.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Ivanov A.A.",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
